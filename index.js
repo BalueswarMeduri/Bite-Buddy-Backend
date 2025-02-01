@@ -31,6 +31,6 @@ app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
 
-app.use('/home',(req,res)=>{
+app.use('/',(req,res)=>{
     res.send('Welcome to Home Page')
 })
